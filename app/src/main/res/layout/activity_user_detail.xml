@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aixiaozi.xichexia.activitys.UserDetailActivity">
+
+    <include
+        android:id="@+id/topBar"
+        layout="@layout/top_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dp_30">
+
+            <LinearLayout
+                android:id="@+id/user_detail_l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/user_pic"
+                    android:layout_width="@dimen/dp_50"
+                    android:layout_height="@dimen/dp_50"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:src="@drawable/xichexia" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="@dimen/dp_28"
+                    android:layout_marginStart="@dimen/dp_28"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:background="@drawable/user_tab_view_1"
+                    android:gravity="center"
+                    android:text="用户资料实名认证后不可更改"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_16" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dp_30"
+                    android:layout_marginStart="@dimen/dp_30"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="真实姓名:"
+                        android:textColor="@color/black_33"
+                        android:textSize="@dimen/sp_16" />
+
+                    <EditText
+                        android:id="@+id/userTrueName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:hint="请填写真是姓名"
+                        android:lines="1"
+                        android:maxLength="8"
+                        android:padding="@dimen/dp_3"
+                        android:textColor="@color/black_33"
+                        android:textSize="@dimen/sp_16" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dp_30"
+                    android:layout_marginStart="@dimen/dp_30"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="性        别:"
+                        android:textColor="@color/black_33"
+                        android:textSize="@dimen/sp_16" />
+
+                    <EditText
+                        android:id="@+id/sex"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:hint="请填写性别"
+                        android:lines="1"
+                        android:maxLength="8"
+                        android:padding="@dimen/dp_3"
+                        android:textColor="@color/black_33"
+                        android:textSize="@dimen/sp_16" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dp_30"
+                    android:layout_marginStart="@dimen/dp_30"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="身份证号:"
+                        android:textColor="@color/black_33"
+                        android:textSize="@dimen/sp_16" />
+
+                    <EditText
+                        android:id="@+id/idCardNumber"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:hint="请填写身份证号码"
+                        android:lines="1"
+                        android:maxLength="8"
+                        android:padding="@dimen/dp_3"
+                        android:textColor="@color/black_33"
+                        android:textSize="@dimen/sp_16" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dp_30"
+                    android:layout_marginStart="@dimen/dp_30"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="手机号码:"
+                        android:textColor="@color/black_33"
+                        android:textSize="@dimen/sp_16" />
+
+                    <EditText
+                        android:id="@+id/phoneNumber"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:hint="请填写手机号码"
+                        android:lines="1"
+                        android:maxLength="8"
+                        android:padding="@dimen/dp_3"
+                        android:textColor="@color/black_33"
+                        android:textSize="@dimen/sp_16" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/user_detail_l2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/user_detail_l1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="@dimen/dp_28"
+                    android:layout_marginStart="@dimen/dp_28"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:background="@drawable/user_tab_view_1"
+                    android:gravity="center"
+                    android:text="机动车资料认证后不可更改"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_16" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dp_30"
+                    android:layout_marginStart="@dimen/dp_30"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="机动车品牌:"
+                        android:textColor="@color/black_33"
+                        android:textSize="@dimen/sp_16" />
+
+                    <EditText
+                        android:id="@+id/carBrand"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:hint="请填写机动车品牌"
+                        android:lines="1"
+                        android:maxLength="8"
+                        android:padding="@dimen/dp_3"
+                        android:textColor="@color/black_33"
+                        android:textSize="@dimen/sp_16" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dp_30"
+                    android:layout_marginStart="@dimen/dp_30"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="机动车牌号:"
+                        android:textColor="@color/black_33"
+                        android:textSize="@dimen/sp_16" />
+
+                    <EditText
+                        android:id="@+id/carNumber"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:hint="请填写机动车牌号"
+                        android:lines="1"
+                        android:maxLength="8"
+                        android:padding="@dimen/dp_3"
+                        android:textColor="@color/black_33"
+                        android:textSize="@dimen/sp_16" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dp_30"
+                    android:layout_marginStart="@dimen/dp_30"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="机动车颜色:"
+                        android:textColor="@color/black_33"
+                        android:textSize="@dimen/sp_16" />
+
+                    <EditText
+                        android:id="@+id/carColor"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:hint="请填写机动车颜色"
+                        android:lines="1"
+                        android:maxLength="8"
+                        android:padding="@dimen/dp_3"
+                        android:textColor="@color/black_33"
+                        android:textSize="@dimen/sp_16" />
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dp_30"
+                    android:layout_marginStart="@dimen/dp_30"
+                    android:layout_marginTop="@dimen/dp_30"
+                    android:background="@drawable/login_btn_bg"
+                    android:text="确认"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_16" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

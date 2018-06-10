@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorPrimary_1">#B34A06</color>
+    <color name="colorPrimary_2">#B85706</color>
+    <color name="colorPrimary_3">#FF9934</color>
+    <color name="colorPrimary_4">#B85706</color>
+    <color name="colorPrimary_5">#D87421</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_50">#66FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="black_t60">#99000000</color>
+    <color name="black_alpha_40">#66000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="black_1a">#FF1A1A1A</color>
+    <color name="black_33">#FF333333</color>
+    <color name="black_46">#FF464646</color>
+    <color name="black_66">#FF666666</color>
+    <color name="ask_background">#eeeeee</color>
+    <color name="tv_gray">#eeeeee</color>
+    <color name="black_tv">#8C8C8C</color>
+    <color name="black_80">#FF808080</color>
+    <color name="black_8f">#FF8F8F8F</color>
+    <color name="black_99">#FF999999</color>
+    <color name="black_bd">#FFBDBDBD</color>
+    <color name="black_cc">#FFCCCCCC</color>
+    <color name="black_cd">#FFCDCDCD</color>
+    <color name="black_d4">#FFD4D4D4</color>
+    <color name="black_d5">#FFD5D5D5</color>
+    <color name="black_d8">#FFD8D8D8</color>
+    <color name="black_d9">#FFD9D9D9</color>
+    <color name="black_dd">#FFDDDDDD</color>
+    <color name="black_de">#E8E8E8</color>
+    <color name="black_3a">#FF3a3a3a</color>
+    <color name="black_ea">#FFEAEAEA</color>
+    <color name="black_f0">#FFF0F0F0</color>
+    <color name="black_f1">#FFF1F1F1</color>
+    <color name="black_f2">#FFF2F2F2</color>
+    <color name="black_f7">#FFF7F7F7</color>
+    <color name="black_f8">#FFF8F8F8</color>
+    <color name="black_f9">#FFf9f9f9</color>
+    <color name="blue1">#FF3D81D8</color>
+    <color name="app_bag">#f7f7f7</color>
+    <color name="click_red">#cc2525</color>
+    <color name="err_red">#FF2200</color>
+    <color name="share_red">#ea3535</color>
+    <color name="apply_textcolor">#ff754b</color>
+    <color name="line">@color/black_f0</color>
+    <color name="main_head_title_layout">#E8564D</color>
+    <color name="red1">#FFE63946</color>
+    <color name="red">#FFE63946</color>
+    <color name="redt80">#80E63946</color>
+    <color name="red1t80">#80E63946</color>
+    <color name="green">#0f7221</color>
+    <color name="gray81">#DEDEDE</color>
+    <!-- Android Picker -->
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="buy_dialog_tv_color">#59CDF6</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">@color/black</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <color name="pickerview_bgColor_overlay">#60000000</color>
+    <color name="pickerview_bgColor_default">@color/white</color>
+    <color name="item_message">#999999</color>
+
+    <!-- AlertView -->
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+    <!--窗口背景颜色-->
+    <color name="bgColor_alertview_alert">@color/black_f8</color>
+    <!--标题颜色-->
+    <color name="textColor_alert_title">@color/black</color>
+    <color name="textColor_actionsheet_title">@color/black_8f</color>
+    <!--消息颜色-->
+    <color name="textColor_alert_msg">@color/black</color>
+    <color name="textColor_actionsheet_msg">@color/black_8f</color>
+    <!--线条颜色-->
+    <color name="bgColor_divier">@color/black_f2</color>
+    <!--取消按钮颜色-->
+    <color name="textColor_alert_button_cancel2">@color/black_99</color>
+    <color name="textColor_alert_button_cancel">@color/blue1</color>
+    <color name="textColor_alert_button_cancel3">#FF1E86FF</color>
+    <!--高亮按钮颜色-->
+    <color name="textColor_alert_button_destructive2">@color/blue1</color>
+    <color name="textColor_alert_button_destructive">@color/red1</color>
+    <!--普通按钮文字颜色-->
+    <color name="textColor_alert_button_others">@color/black_1a</color>
+    <!--点击颜色-->
+    <color name="bgColor_alert_button_press">@color/black_ea</color>
+    <!--actionsheet模式的取消按钮背景颜色-->
+    <color name="bgColor_actionsheet_cancel_nor">@color/white</color>
+
+    <color name="menu_click_gray">#CCecedf1</color>
+
+    <color name="yellow">#ffe13d</color>
+    <color name="yellow_tv">#e8d37e</color>
+
+    <color name="yellow06">#4e2606</color>
+    <color name="trumpet_color">#f7e4b8</color>
+    <color name="home_yield">#fefbdc</color>
+</resources>

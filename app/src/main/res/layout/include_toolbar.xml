@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:elevation="0dp"
+    tools:targetApi="lollipop">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/inc_toolbar"
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/toolbar_padding_top"
+        android:layout_height="@dimen/dp_48">
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="@dimen/dp_23"
+            android:layout_height="@dimen/dp_23"
+            android:src="@drawable/back_white" />
+        <TextView
+            android:id="@+id/inc_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/sp_17"
+            android:textColor="@color/white"/>
+
+    </android.support.v7.widget.Toolbar>
+
+</android.support.design.widget.AppBarLayout>

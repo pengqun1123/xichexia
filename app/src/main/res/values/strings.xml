@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">xichexia</string>
+    <string name="carRinser">洗车侠</string>
+    <string name="login">登录</string>
+    <string name="phone">请输入手机号</string>
+    <string name="input_password">请输入密码</string>
+    <string name="verif_code">验证码</string>
+    <string name="input_new_password">请输入新密码</string>
+    <string name="find_password">找回密码</string>
+    <string name="inutp_phone_number_tip">请输入手机号</string>
+    <string name="register">注册</string>
+    <string name="registerTip">我已阅读并同意洗车侠平台用户协议</string>
+    <string name="user_detail">用户资料</string>
+</resources>
